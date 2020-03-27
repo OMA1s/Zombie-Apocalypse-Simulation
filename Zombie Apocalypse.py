@@ -174,7 +174,6 @@ class Apocalypse(poc_grid.Grid):
         self._zombie_list = templ
 
     
-# Start up gui for simulation - You will need to write some code above
-# before this will work without errors
+# Start up gui for simulation 
 
 poc_zombie_gui.run_gui(Apocalypse(30, 40))
